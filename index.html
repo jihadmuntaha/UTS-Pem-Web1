@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MENTAL HEALTH</h1>
+        <div class="container">
+            <img src="Image/Logo mental.png" alt="Health Logo" class="logo">
+            <!-- NAVIGATION BAR -->
+            <div class="container-navbar">
+                <ul class="ul-navbar">
+                    <li class="li-navbar">
+                        <a href="index.html" class="a-navbar">HOME</a>
+                    </li>
+                    <li class="li-navbar">
+                        <a href="content.html" class="a-navbar">CONTENT</a>
+                    </li>
+                    <li class="li-navbar">
+                        <a href="about.html" class="a-navbar">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+        <section id="home" class="section-home">
+            <h2>Selamat Datang di Website Mental Health</h2>
+            <img src="Image/Definisi-Kesehatan-Mental.png" alt="Sehat">
+        <p>Website ini menyediakan tips dan trik untuk menjaga kesehatan Mental.</p>
+        <button onclick="showAlert()">Kata-kata hari ini!</button>
+    </section>
+    <section id="content" class="section-content">
+        <h2>Tips Menjaga Kesehatan Mental</h2>
+        <div class="tips">
+            <div class="tip">
+                <h3>Hargai diri sendiri</h3>
+                <p>Perlakukan diri sendiri dengan positif, dan bersyukur atas hal-hal baik yang terjadi.</p>
+            </div>
+            <div class="tip">
+                <h3>Olahraga secara rutin</h3>
+                <p>Berolahraga dapat membantu mengelola stres.</p>
+            </div>
+            <div class="tip">
+                <h3>Perkuat dukungan sosial</h3>
+                <p>Berhubungan dengan orang-orang yang dipercaya dapat membantu menjaga kesehatan mental.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section-about">
+        <h2>Kritik, Saran, & Curhatan</h2>
+        <p>Atau anda dapat langsung mengirim ke <a href="mailto:klinikkemenkes@gmail.com">klinikkemenkes@gmail.com</a></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input onclick="notifikasi()" type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mental Health. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
